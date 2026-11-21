@@ -45,7 +45,7 @@ export default function PostTuition() {
                     </Button>
                 </EmptyState>
             ) : (
-                <TuitionForm onSaved={() => router.push("/dashboard/tutor")} />
+                <TuitionForm onSaved={() => router.push("/dashboard/tutor/my-tuitions")} />
             )}
         </div>
     );
